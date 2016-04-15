@@ -1,0 +1,23 @@
+node_modules/
+bower_components/
+*.log
+
+.tmp/
+.sass-cache
+build/
+dist/
+
+config/protractor/reports/
+
+npm-debug.log
+
+validation-report.json
+validation-status.json
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+
+*.iml
+
+## Directory-based project format:
+.idea/
