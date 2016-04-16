@@ -1,45 +1,45 @@
 {
-  "root": true,
-  "extends": "eslint:recommended",
-  "env": {
-    "browser": true,
-    "node": true,
-    "commonjs": true,
-    "amd": true,
-    "jasmine": true,
-    "phantomjs": true
-  },
-  "plugins": [
-    "angular"
-  ],
-  "globals" : {
-    "angular": true,
-    "_": true,
-    "$": true,
-    "inject": true,
-    "compileDirective": true,
-    "itBehavesLike": true,
-    "emb": true
-  },
-  "rules": {
-    "jsdoc/check-param-names": 0,
-    "jsdoc/check-tag-names": 0,
-    "jsdoc/check-types": 0,
-    "jsdoc/newline-after-description": 0,
-    "jsdoc/require-description-complete-sentence": 0,
-    "jsdoc/require-hyphen-before-param-description": 0,
-    "jsdoc/require-param": 0,
-    "jsdoc/require-param-description": 0,
-    "jsdoc/require-param-type": 0,
-    "jsdoc/require-returns-description": 0,
-    "jsdoc/require-returns-type": 0,
-    "no-unused-vars": 0,
-    "angular/controller-as": 0,
-    "angular/no-service-method": 0,
-    "angular/window-service": 0,
-    "angular/di": [
-      0,
-      "array"
-    ]
-  }
+   "root": true,
+   "extends": "eslint:recommended",
+   "env": {
+      "browser": true,
+      "node": true,
+      "commonjs": true,
+      "amd": true,
+      "jasmine": true,
+      "phantomjs": true
+   },
+   "plugins": [
+      "angular"
+   ],
+   "globals": {
+      "angular": true,
+      "_": true,
+      "$": true,
+      "inject": true,
+      "compileDirective": true,
+      "itBehavesLike": true,
+      "emb": true
+   },
+   "rules": {
+      "jsdoc/check-param-names": 0,
+      "jsdoc/check-tag-names": 0,
+      "jsdoc/check-types": 0,
+      "jsdoc/newline-after-description": 0,
+      "jsdoc/require-description-complete-sentence": 0,
+      "jsdoc/require-hyphen-before-param-description": 0,
+      "jsdoc/require-param": 0,
+      "jsdoc/require-param-description": 0,
+      "jsdoc/require-param-type": 0,
+      "jsdoc/require-returns-description": 0,
+      "jsdoc/require-returns-type": 0,
+      "no-unused-vars": 0,
+      "angular/controller-as": 0,
+      "angular/no-service-method": 0,
+      "angular/window-service": 0,
+      "angular/di": [
+         0,
+         "array"
+      ]
+   }
 }
